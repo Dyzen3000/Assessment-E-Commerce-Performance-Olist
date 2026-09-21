@@ -1,6 +1,6 @@
 # Assessment of E-Commerce Performance in Olist, Brazil (2016–2018)
 
-## 📌 Project Overview
+## Project Overview
 
 Analyzed Brazilian e-commerce data from Olist (2016–2018) using SQL, Python, and Power BI to evaluate sales performance, customer behavior, payment patterns, product performance, and delivery efficiency.
 
@@ -8,7 +8,7 @@ The project aims to generate data-driven insights that support business decision
 
 ---
 
-## 🎯 Business Problem
+## Business Problem
 
 E-commerce businesses need to understand customer purchasing behavior, sales performance, delivery efficiency, and payment preferences to improve operations and increase revenue.
 
@@ -50,7 +50,7 @@ The dataset contains information about orders, customers, sellers, products, pay
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - **SQL (PostgreSQL):** Data cleaning, transformation, and business analysis
 - **Python (Pandas, NumPy, Matplotlib):** Exploratory Data Analysis and statistical analysis
@@ -59,7 +59,7 @@ The dataset contains information about orders, customers, sellers, products, pay
 
 ---
 
-## 📋 Project Workflow
+## Project Workflow
 
 1. **Data Understanding**
    - Explore dataset structure and relationships.
@@ -93,7 +93,7 @@ The dataset contains information about orders, customers, sellers, products, pay
 
 ---
 
-## 📈 Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The following metrics will be evaluated during the project:
 
@@ -111,7 +111,7 @@ The following metrics will be evaluated during the project:
 
 ---
 
-## 🔍 Executive Summary
+## Executive Summary
 
 *To be updated after completing the analysis.*
 
@@ -119,7 +119,7 @@ This section will summarize the most important findings for non-technical stakeh
 
 ---
 
-## 📊 Insights Deep Dive
+## Insights Deep Dive
 
 ### 1. Sales Performance
 *To be updated.*
@@ -162,7 +162,7 @@ This section will summarize the most important findings for non-technical stakeh
 
 ---
 
-## 📌 Business Recommendations
+## Business Recommendations
 
 *To be developed based on analytical findings.*
 
@@ -176,7 +176,7 @@ Potential areas of focus:
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 *To be updated during the project.*
 
@@ -189,7 +189,7 @@ Potential limitations include:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Olist-Ecommerce-Analysis/

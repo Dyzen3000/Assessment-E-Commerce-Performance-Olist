@@ -55,34 +55,15 @@ The Olist dataset consists of multiple relational tables connected
 primarily through `order_id`, `customer_id`, `customer_unique_id`,
 `product_id`, and `seller_id`.
 
-  -----------------------------------------------------------------------
-  Table                               Purpose
-  ----------------------------------- -----------------------------------
-  `orders`                            Order lifecycle, purchase,
-                                      approval, delivery and estimated
-                                      delivery dates
-
-  `order_items`                       Products purchased within each
-                                      order, seller, price and freight
-
-  `order_payments`                    Payment method, payment value and
-                                      installments
-
-  `order_reviews`                     Customer review scores and review
-                                      timestamps
-
-  `customers`                         Customer location and customer
-                                      identifiers
-
-  `sellers`                           Seller location and seller
-                                      identifiers
-
-  `products`                          Product dimensions, weight and
-                                      product category
-
-  `category_translation`              Portuguese-to-English product
-                                      category mapping
-  -----------------------------------------------------------------------
+| Table | Description |
+|---|---|
+| `orders` | Order lifecycle, purchase, approval, delivery and estimated delivery dates |
+| `order_items` | Products purchased within each order, seller, price and freight |
+| `order_payments` | Payment method, payment value and installments |
+| `order_reviews` | Customer review scores and review timestamps |
+| `customers` | Customer location and customer identifiers |
+| `sellers` | Seller location and seller identifiers |
+| `products` | Product dimensions, weight and product category |
 
 ### Important Data Relationships
 

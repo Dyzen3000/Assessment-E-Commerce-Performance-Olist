@@ -1,4 +1,4 @@
-# Assessment of E-Commerce Performance in Olist, Brazil (2016--2018)
+# Assessment of E-Commerce Performance in Olist, Brazil (2016-2018)
 
 ## Project Overview
 

@@ -206,6 +206,9 @@ The current Power BI dashboard provides the following headline metrics:
 Revenue increased substantially during 2017, reaching high monthly
 levels before experiencing greater volatility during 2018.
 
+<img width="1189" height="490" alt="Monthly revenue trend" src="https://github.com/user-attachments/assets/fc30b0ce-6053-469c-be7a-1b844e078021" />
+
+
 The largest product categories by revenue included:
 
   Product Category            Approx. Revenue
@@ -275,6 +278,9 @@ Delivery time is strongly right-skewed, with most orders concentrated
 around shorter delivery periods and a smaller number of highly delayed
 orders.
 
+<img width="989" height="590" alt="delivery time" src="https://github.com/user-attachments/assets/71d5fade-88f3-4347-9c19-70b752b28ccf" />
+
+
   Delivery Metric                                              Result
   ----------------------- -------------------------------------------
   Median Delivery Time                                      \~10 days
@@ -288,6 +294,9 @@ Approximately **1.1K orders** were in the 45+ day delivery bucket in the
 analyzed dashboard.
 
 ### Geographic Variation
+
+<img width="997" height="557" alt="Delivery Region" src="https://github.com/user-attachments/assets/e6f13fb0-a4c3-432b-b222-c5a1d611d86e" />
+
 
 States such as **Amazonas, Amapá, Roraima, Alagoas, and Pará** showed
 some of the longest median delivery times.
@@ -351,6 +360,8 @@ distributions across Brazilian states.
 
 Delivery times differ significantly across states, supporting the Power
 BI finding that logistics performance is geographically heterogeneous.
+
+<img width="989" height="590" alt="delivery status" src="https://github.com/user-attachments/assets/baf69c19-78a2-4bee-80fc-652ce87349f7" />
 
 ------------------------------------------------------------------------
 

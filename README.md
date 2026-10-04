@@ -251,6 +251,9 @@ as a customer-retention failure.
 
 Credit cards were the dominant payment method, followed by boleto.
 
+<img width="626" height="352" alt="image" src="https://github.com/user-attachments/assets/30beed71-e6a4-4dfa-9930-75f8d086ab80" />
+
+
 Payment activity increased alongside overall order volume during the
 marketplace's growth period.
 

@@ -180,17 +180,17 @@ are important areas for further investigation.
 
 The current Power BI dashboard provides the following headline metrics:
 
-  KPI                                  Result
-  --------------------------- ---------------
-  Product Revenue               **R\$11.76M**
-  Product Revenue per Order     **R\$120.96**
-  Unique Customers                  **\~94K**
-  Repeat Customer Rate              **3.01%**
-  Customers with 2+ Orders           **\~3K**
-  Total Freight                  **R\$1.95M**
-  Freight / Product Value          **16.56%**
-  Median Delivery Time            **10 days**
-  Average Review Score               **4.09**
+| KPI | Result |
+|---|---:|
+| Product Revenue | **R\$11.76M** |
+| Product Revenue per Order | **R\$120.96** |
+| Unique Customers | **~94K** |
+| Repeat Customer Rate | **3.01%** |
+| Customers with 2+ Orders | **~3K** |
+| Total Freight | **R\$1.95M** |
+| Freight / Product Value | **16.56%** |
+| Median Delivery Time | **10 days** |
+| Average Review Score | **4.09** |
 
 > **Metric note:** Product revenue and order-level KPIs are calculated
 > from the current Power BI model. Because the analytical `main` table
@@ -211,13 +211,13 @@ levels before experiencing greater volatility during 2018.
 
 The largest product categories by revenue included:
 
-  Product Category            Approx. Revenue
-  ------------------------- -----------------
-  Health & Beauty                    R\$1.10M
-  Watches & Gifts                    R\$1.07M
-  Bed/Bath/Table                     R\$0.91M
-  Sports & Leisure                   R\$0.86M
-  Computers & Accessories            R\$0.79M
+| Product Category | Approx. Revenue |
+|---|---:|
+| Health & Beauty | **R\$1.10M** |
+| Watches & Gifts | **R\$1.07M** |
+| Bed/Bath/Table | **R\$0.91M** |
+| Sports & Leisure | **R\$0.86M** |
+| Computers & Accessories | **R\$0.79M** |
 
 The top five categories contributed approximately **40% of product
 revenue** in the analysis, indicating that revenue was distributed
@@ -231,11 +231,11 @@ category.
 Approximately **3.01% of identified customers placed two or more
 orders** during the observed period.
 
-  Customer Metric              Result
-  -------------------------- --------
-  Unique Customers              \~94K
-  Customers with 2+ Orders       \~3K
-  Repeat Customer Rate          3.01%
+| Customer Metric | Result |
+|---|---:|
+| Unique Customers | **~94K** |
+| Customers with 2+ Orders | **~3K** |
+| Repeat Customer Rate | **3.01%** |
 
 The customer base is dominated by one-time purchasers. Among repeat
 customers, customers making two purchases are substantially more common
@@ -281,11 +281,11 @@ orders.
 <img width="989" height="590" alt="delivery time" src="https://github.com/user-attachments/assets/71d5fade-88f3-4347-9c19-70b752b28ccf" />
 
 
-  Delivery Metric                                              Result
-  ----------------------- -------------------------------------------
-  Median Delivery Time                                      \~10 days
-  Average Delivery Time                                   \~12.6 days
-  Late Delivery Rate        \~7--8% depending on dashboard definition
+| Delivery Metric | Result |
+|---|---:|
+| Median Delivery Time | **~10 days** |
+| Average Delivery Time | **~12.6 days** |
+| Late Delivery Rate | **~7–8% depending on dashboard definition** |
 
 Most orders were delivered within **5--14 days**, while a long tail of
 orders took more than 20 days.
@@ -318,17 +318,17 @@ required to establish specific causes.
 
 This is the strongest finding from the analysis.
 
-  Delivery Status     Average Review Score
-  ----------------- ----------------------
-  On Time / Early                **\~4.3**
-  Late                           **\~2.3**
+| Delivery Status | Average Review Score |
+|---|---:|
+| On Time / Early | **~4.3** |
+| Late | **~2.3** |
 
 Median review scores were approximately:
 
-  Delivery Status     Median Review
-  ----------------- ---------------
-  On Time / Early             **5**
-  Late                        **2**
+| Delivery Status | Median Review |
+|---|---:|
+| On Time / Early | **5** |
+| Late | **2** |
 
 ### Statistical Test
 
@@ -380,6 +380,9 @@ Relative to product value:
 Product weight showed a moderate positive relationship with freight
 cost.
 
+<img width="850" height="545" alt="Weight vs Freight cost" src="https://github.com/user-attachments/assets/8973754e-39ae-4072-a30b-9d38501f918f" />
+
+
 **Spearman correlation:**
 
 > ρ ≈ **0.447**
@@ -390,12 +393,12 @@ products.
 
 ### Additional Correlations
 
-  Variables            Spearman ρ
-  ------------------ ------------
-  Weight ↔ Freight      **0.447**
-  Price ↔ Freight       **0.434**
-  Volume ↔ Freight      **0.369**
-  Weight ↔ Volume       **0.768**
+| Variables | Spearman ρ |
+|---|---:|
+| Weight ↔ Freight | **0.447** |
+| Price ↔ Freight | **0.434** |
+| Volume ↔ Freight | **0.369** |
+| Weight ↔ Volume | **0.768** |
 
 Freight economics are influenced by multiple product characteristics
 rather than weight alone.
@@ -407,14 +410,14 @@ rather than weight alone.
 Several categories showed relatively high average
 freight-to-product-value ratios.
 
-  Product Category                    Approx. Avg. Freight / Product Value
-  --------------------------------- --------------------------------------
-  Home Comfort 2                                                     \~91%
-  DVDs & Blu-ray                                                     \~82%
-  Electronics                                                        \~69%
-  Christmas Supplies                                                 \~63%
-  Flowers                                                            \~54%
-  Furniture Mattress & Upholstery                                    \~50%
+| Product Category | Approx. Avg. Freight / Product Value |
+|---|---:|
+| Home Comfort 2 | **~91%** |
+| DVDs & Blu-ray | **~82%** |
+| Electronics | **~69%** |
+| Christmas Supplies | **~63%** |
+| Flowers | **~54%** |
+| Furniture Mattress & Upholstery | **~50%** |
 
 For some categories, freight represents a very large proportion of
 product value. This can be particularly important for lower-value
@@ -431,13 +434,13 @@ products, where shipping costs can materially affect order economics.
 Seller revenue was concentrated in Brazil's major South--Southeast
 commercial corridor.
 
-  Seller State          Approx. Product Revenue
-  ------------------- -------------------------
-  São Paulo                             R\$4.9M
-  Rio de Janeiro                        R\$1.5M
-  Minas Gerais                          R\$1.4M
-  Rio Grande do Sul                     R\$0.6M
-  Paraná                                R\$0.6M
+| Seller State | Approx. Product Revenue |
+|---|---:|
+| São Paulo | **R\$4.9M** |
+| Rio de Janeiro | **R\$1.5M** |
+| Minas Gerais | **R\$1.4M** |
+| Rio Grande do Sul | **R\$0.6M** |
+| Paraná | **R\$0.6M** |
 
 São Paulo generated substantially more seller-side revenue than other
 states in the Power BI dashboard.

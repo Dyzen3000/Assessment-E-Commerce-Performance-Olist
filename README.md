@@ -219,6 +219,9 @@ The largest product categories by revenue included:
 | Sports & Leisure | **R\$0.86M** |
 | Computers & Accessories | **R\$0.79M** |
 
+<img width="625" height="347" alt="image" src="https://github.com/user-attachments/assets/1f98eee4-8c06-4a1f-b656-a6f64499f118" />
+
+
 The top five categories contributed approximately **40% of product
 revenue** in the analysis, indicating that revenue was distributed
 across several major categories rather than being dominated by a single
@@ -230,6 +233,9 @@ category.
 
 Approximately **3.01% of identified customers placed two or more
 orders** during the observed period.
+
+<img width="989" height="590" alt="orders" src="https://github.com/user-attachments/assets/ab0e3e9d-d1fd-4643-bcb7-e74ebb66d616" />
+
 
 | Customer Metric | Result |
 |---|---:|
@@ -304,6 +310,9 @@ analyzed dashboard.
 States such as **Amazonas, Amapá, Roraima, Alagoas, and Pará** showed
 some of the longest median delivery times.
 
+<img width="625" height="356" alt="image" src="https://github.com/user-attachments/assets/82bc810e-6a4c-4763-be6f-c567a68edc5d" />
+
+
 Median delivery time reached approximately **25--26 days** in Amazonas,
 Amapá, and Roraima.
 
@@ -325,6 +334,8 @@ This is the strongest finding from the analysis.
 |---|---:|
 | On Time / Early | **~4.3** |
 | Late | **~2.3** |
+
+<img width="691" height="468" alt="review_VS_delivery" src="https://github.com/user-attachments/assets/18ec45b2-bc8e-40ed-a283-edf6f676a027" />
 
 Median review scores were approximately:
 
@@ -412,6 +423,8 @@ rather than weight alone.
 
 Several categories showed relatively high average
 freight-to-product-value ratios.
+
+<img width="627" height="348" alt="image" src="https://github.com/user-attachments/assets/e8f26e30-8aa5-4c15-ae2a-9cb5beafa464" />
 
 | Product Category | Approx. Avg. Freight / Product Value |
 |---|---:|
